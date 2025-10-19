@@ -1,5 +1,4 @@
-﻿using Domain.Models;
-using Domain.Records.Responses.Auth;
+﻿using Domain.Records.Responses.Auth;
 
 namespace Domain.Interfaces.Infrastructure
 {

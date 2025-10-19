@@ -6,7 +6,6 @@ using Domain.Records.Requests;
 using Infrastructure.Clients.Records;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Net.Http.Json;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Infrastructure.Clients
 {

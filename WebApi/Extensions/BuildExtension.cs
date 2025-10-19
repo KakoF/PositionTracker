@@ -40,22 +40,6 @@ namespace WebApi.Extensions
 			{
 				client.BaseAddress = new Uri(builder.Configuration["Clients:BitconMarketClient:BasePath"]!);
 			}).AddHttpMessageHandler<BitcoinMarketAuthHandler>();
-
-			
-
-			/*builder.Services.AddHttpClient<IBitconMarketClient, BitconMarketClient>(nameof(BitconMarketClient), client =>
-			{
-				client.BaseAddress = new Uri(builder.Configuration["Clients:BitconMarketClient:BasePath"]!);
-			})
-			.AddHttpMessageHandler<BitcoinMarketAuthHandler>();*/
-
-			/*builder.Services.AddHttpClient<IAuthBitconMarketClient, AuthBitconMarketClient>(nameof(AuthBitconMarketClient), client =>
-			{
-				client.BaseAddress = new Uri(builder.Configuration["Clients:BitconMarketClient:AuthPath"]!);
-			});*/
 		}
-
-
-
 	}
 }
